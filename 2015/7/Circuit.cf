@@ -1,0 +1,17 @@
+Circuit     . Circuit ::= [Conn] ;
+
+Conn        . Conn ::= Gate    " -> "  Ident ;
+
+PureG       . Gate ::= Exp                   ;
+AndG        . Gate ::= Exp     " AND " Ident ; 
+OrG         . Gate ::= Ident   " OR "  Ident ;
+RShiftG     . Gate ::= Ident   " RSHIFT " Integer ;
+LShiftG     . Gate ::= Ident   " LSHIFT " Integer ;
+NotG        . Gate ::= "NOT " Ident ;
+
+IdentExp    . Exp ::= Ident ;
+NumExp      . Exp ::= Integer ;
+
+-- List definitions
+terminator nonempty Conn "" ;
+separator Conn "\n";

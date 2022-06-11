@@ -1,0 +1,187 @@
+cabal-version:      3.0
+name:               adventofcode
+version:            0.1.0.0
+synopsis:           Advent of code!
+license:            NONE
+author:             Finley McIlwaine
+maintainer:         finleymcilwaine@gmail.com
+
+executable 2015day1
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2015/1
+    default-language: Haskell2010
+
+executable 2015day2
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2015/2
+    default-language: Haskell2010
+
+executable 2015day3
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers >=0.6.2.1
+    hs-source-dirs: 2015/3
+    default-language: Haskell2010
+
+executable 2015day4
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, cryptohash-md5 -any, utf8-string -any, bytestring -any
+    hs-source-dirs: 2015/4
+    default-language: Haskell2010
+
+executable 2015day5
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2015/5
+    default-language: Haskell2010
+
+executable 2015day6
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2015/6
+    default-language: Haskell2010
+
+executable 2015day7
+    main-is:          Main.hs
+    other-modules:
+      SkelCircuit
+      , AbsCircuit
+      , LexCircuit
+      , ParCircuit
+      , PrintCircuit
+    build-depends:    base ^>=4.14.1.0, array >=0.5.4.0, containers >=0.6.2.1, mtl >=2.2.2
+    hs-source-dirs: 2015/7
+    default-language: Haskell2010
+
+executable 2015day8
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2015/8
+    default-language: Haskell2010
+
+executable 2015day9
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any
+    hs-source-dirs: 2015/9
+    default-language: Haskell2010
+
+
+
+
+
+executable 2021day1
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/1
+    default-language: Haskell2010
+
+executable 2021day2
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/2
+    default-language: Haskell2010
+
+executable 2021day3
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/3
+    default-language: Haskell2010
+
+executable 2021day4
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/4
+    default-language: Haskell2010
+
+executable 2021day5
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/5
+    default-language: Haskell2010
+
+executable 2021day6
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers -any
+    hs-source-dirs: 2021/6
+    default-language: Haskell2010
+
+executable 2021day7
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/7
+    default-language: Haskell2010
+
+executable 2021day8
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any
+    hs-source-dirs: 2021/8
+    default-language: Haskell2010
+
+executable 2021day9
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/9
+    default-language: Haskell2010
+
+executable 2021day10
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/10
+    default-language: Haskell2010
+
+executable 2021day11
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any, containers -any
+    hs-source-dirs: 2021/11
+    ghc-options: 
+        -O3
+    default-language: Haskell2010
+
+executable 2021day12
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers -any, mtl -any
+    hs-source-dirs: 2021/12
+    default-language: Haskell2010
+
+executable 2021day13
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers -any
+    hs-source-dirs: 2021/13
+    default-language: Haskell2010
+
+executable 2021day14
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any, containers -any
+    hs-source-dirs: 2021/14
+    default-language: Haskell2010
+
+executable 2021day15
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any, containers -any, mtl -any
+    hs-source-dirs: 2021/15
+    default-language: Haskell2010
+
+executable 2021day16
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers -any
+    hs-source-dirs: 2021/16
+    default-language: Haskell2010
+
+executable 2021day17
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, containers -any, mtl -any
+    hs-source-dirs: 2021/17
+    default-language: Haskell2010
+
+executable 2021day18
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0
+    hs-source-dirs: 2021/18
+    default-language: Haskell2010
+
+executable 2021day19
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.1.0, split -any, containers -any
+    hs-source-dirs: 2021/19
+    default-language: Haskell2010
